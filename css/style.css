@@ -1,7 +1,8 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     font-family: "Poppins", "Verdana", "Arial";
+    max-width: 1090px;
 }
 
 h2,
@@ -15,6 +16,7 @@ p {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    max-width: 1090px;
 }
 
 .menu li {
@@ -36,6 +38,25 @@ p {
 
 .menu li a.active {
     background-color: #009929;
-    padding: 5;
+    padding: 5px;
     margin: 0;
+}
+
+.mySlide{
+    display: none;
+
+}
+
+.w3-left, .w3-right, .w3-bage{
+    cursor: pointer;
+}
+
+.w3-bage{
+    width: 13px;
+    height: 13px;
+    padding:0;
+}
+
+.banner{
+    max-width: 1090px;
 }
