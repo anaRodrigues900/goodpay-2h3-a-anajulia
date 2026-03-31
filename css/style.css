@@ -54,4 +54,8 @@ h2, p{
 .banner{
     max-width: 1090px;
 }
+.card{
+    width: 100%;
+    max-width: 400px;
+}
 
